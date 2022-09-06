@@ -1,0 +1,452 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+
+.Navbarr {
+  width: 100%;
+  background-color: #0F1035;
+  height: 57px;
+}
+
+.Navbarr nav {
+  color: #fff;
+  width: 50%;
+}
+
+.Navbarr nav ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.Navbarr button {
+  margin-left: 90%;
+  margin-top: -77px;
+}
+
+.Navbarr nav ul li {
+  list-style: none;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.Navbarr nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.NavHand {
+  width: 100%;
+  height: 73px;
+  background: #FFFFFF;
+
+}
+
+.NavHand:hover {
+  background-color: aliceblue;
+}
+
+.NavHand nav {
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-left: 80px;
+  width: 200px;
+}
+
+.NavHand nav img {
+  width: 200px;
+  margin-top: 10px;
+  height: 100%;
+
+}
+
+.NavHand ul {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 40%;
+  margin-left: 500px;
+  margin-top: -40px;
+
+}
+
+.NavHand ul li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+
+
+}
+
+.NavHand ul li a {
+  text-decoration: none;
+  color: #0F1035;
+}
+
+.NavHand ul li a:hover {
+  color: red;
+}
+
+.navbarr {
+  width: 100%;
+  height: 62px;
+  background: #D3F1F3;
+
+}
+
+.navbarr b {
+  margin-top: 30px;
+}
+
+.Page1 {
+  width: 100%;
+  height: 502px;
+  background-image: url(./components//pagess/imge/page1.png);
+}
+
+.Page1 h1 {
+  width: 500px;
+  margin: auto;
+  font-weight: 700;
+  font-size: 48;
+}
+
+.Page1 h3 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+.Page1 .input {
+  width: 500px;
+  margin: 300px auto;
+  display: flex;
+  justify-content: center;
+}
+
+.Page1 .input input {
+  width: 300px;
+}
+
+.Page2 {
+  width: 100%;
+  height: 600px;
+}
+
+.Page2 h6 {
+  margin-top: 30px;
+}
+
+.Cards {
+  width: 80%;
+  height: 60%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+}
+
+.Cards .card {
+  width: 30%;
+  height: 200px;
+  border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Cards .card img{
+  width: 60px;
+  height: 60px;
+  /* margin-left: 120px; */
+}
+
+.card p {
+  width: 200px;
+}
+
+.Page3 {
+  width: 100%;
+  height: 904px;
+  margin-top: 80px;
+  background-color: #61dafb;
+  background-image: url(./components/pagess/imge/Page3.png);
+}
+.Page3 .text {
+  height: auto;
+  margin-top: 20px;
+  border: 0.1px solid transparent ;
+
+}
+.Page3 .text h1{
+  width: 300px;
+  font-weight: 700;
+  font-size: 33px;
+  margin:100px auto;
+
+}
+.Page3 .IBM{
+  width: 1090px;
+  height: 200px;
+  background-color: #fff;
+  margin-top: 200px;
+  margin-left: 207px;
+}
+.IBM img{
+  margin-top: 50px;
+  margin-right: 800px;
+}
+.IBM .text{
+  border: none;
+  width: 456px;
+  text-align: left;
+  margin-left: 230px;
+  margin-top: -100px;
+}
+.IBM .text p{
+  margin-left: 60px;
+  margin-top: -23px;
+}
+
+
+.Page4{
+  height: 80vh;
+}
+.Page4 h1{
+  font-size: 23px;
+  margin-top: 10px;
+  font-weight: 800;
+}
+/* .Page4 h2{
+  font-size: 23px;
+  margin-top: 10px;
+  font-weight: 600;
+} */
+.Page4 .cardss {
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 70px;
+}
+.Page4 .cardss .card{
+  width: 170px;
+  height: 190px;
+}
+
+.cardss .card .tex p {
+  margin-top: -160px;
+  margin-left: 80px;
+  width: 60px;
+}
+.cardss .card  b {
+  margin-top: 15px;
+}
+
+.Page5{
+  width: 100%;
+  height: 450px;
+   background: #F3E02B;
+   margin-top: 50px;
+  
+}
+.Page5 .text5{
+  width: 450px;
+  margin:auto;
+  height: auto;
+  border: 1px solid #F3E02B;
+}
+.Page5 .text5 h1{
+  font-size: 40px;
+  margin-top: 65px;
+
+}
+.Page5 .text5 p{
+  margin-top: 65px;
+
+}
+
+.Page6{
+  width: 100%;
+  height: 634px;
+  margin-top: 170px;
+  background-image: url(./components/pagess/imge/Page6.png);
+  display: flex;
+  align-items: center;
+}
+
+.Page6 .logo{
+  width: 500px;
+  height: 474px;
+  background-color: #ffffff;
+  margin-left: 60px;
+}
+.logo .text6{
+  width: 80%;
+  margin: 45px auto;
+}
+
+.page7{
+  width: 100%;
+  height: 50vh;
+}
+.page7 .text7{
+  width: 500px;
+  margin: auto;
+}
+
+.page7 button{
+  margin-right: 720px;
+  margin-top: 100px;
+ 
+}
+.page7 .img{
+  width: 600px;
+  height: 490px;
+}
+.img img {
+width: 100%;
+height: 100%;
+background-color: #fff;
+margin-left: 650px;
+margin-top: -100px;
+
+}
+.text7 h2{
+  margin-top: 50px;
+}
+.text7 p{
+  margin-top: 20px;
+}
+.pag8{
+  width: 100%;
+  height: 350px;
+  position: absolute;
+  background-color: #0F1035;
+  z-index: 99;
+  margin-top: 80px;
+
+}
+.pag8 .text{
+  width: 350px;
+  color: #fff;
+  margin: auto;
+}
+.pag8 .text h2{
+  margin-top: 60px;
+}
+.pag8 .text p{
+  margin-top: 30px;
+}
+.Footer{
+  width: 100%;
+  height: 80vh;
+  margin-top: 500px;
+  display: flex;
+  align-items: center;
+  /* border: 1px solid black; */
+  justify-content: space-around;
+}
+.Footer .footerr{
+  width: 50%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.Footer .fotimg{
+  width: 30%;
+  height: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.fotimg img{
+  margin-top: -300px;
+  margin-left: 30%;
+}
+.fotimg div{
+  margin: auto;
+  display: flex;
+  height: 50px;
+  width: 100%;
+  justify-content: space-between;
+  margin-left: -200px;
+  margin-top: 90px;
+}
+.fotimg div button{
+  margin-left: -100px;
+}
+.footerr .fot{
+  width: 18%;
+  height: 90%;
+  /* border: 1px solid green; */
+}
+.line{
+  width: 80%;
+  border: 1px solid black;
+  margin: -30px auto;
+}
+.fo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.fo p{
+  margin-top: 50px;
+  text-align: left;
+  margin-left: 120px;
+  margin-top: 40px;
+}
+.fo .Icons a{
+  margin: 20px;
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+  
+}
+.fa .Icons a img{
+  margin-top: 20px;
+}
